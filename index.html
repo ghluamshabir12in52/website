@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .sectoin-1{
+        background-color: teal;
+        
+    }
+    .main .sectoin-1 .sub-1{
+        display: inline-flex;
+        width: 100%;
+        padding: 10px;
+    }
+    .main .sectoin-1 .sub-1 .main-heading{
+        color: lightcyan;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:18px;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-left: 50px;
+    }
+    .main .sectoin-1 .sub-1 .search-bar{
+        margin: 15px 170px;
+    }
+    .main .sectoin-1 .sub-1 .search-bar input{
+        padding: 8px;
+    }
+    .main .sectoin-1 .sub-1 .search-bar input[type="submit"]{
+        background-color: rgb(1, 105, 105);
+        color:lightcyan;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 5px;
+        border: 2px solid lightcyan;
+    }
+    .main .sectoin-1 .sub-2{
+        width:100%;
+        margin: 0px auto;
+        background-color: teal;
+    }
+    .sub-3{
+        float: right;
+        background-color: teal;
+        padding-right: 200px;
+        
+    }
+    .sub-3 a{
+        text-decoration: none;
+        color: lightcyan;
+        font-size: 18px;
+        border: 2px solid lightcyan;;
+        padding: 5px;
+        margin-right: 10px;
+        display: inline-block;
+        width: 100px;
+        text-align: center;
+        background: rgb(1, 105, 105);
+    }
+    .main .sectoin-1 .sub-2 ul{
+        display: inline-flex;
+        list-style: none;
+    }
+    .main .sectoin-1 .sub-2 ul li{
+        width: 120px;
+        padding: 10px;
+        margin: 10px 3px;
+        text-align: center;
+    }
+    .main .sectoin-1 .sub-2 ul li a{
+        text-decoration: none;
+        color: lightcyan;
+        font-size:18px;
+        text-transform: capitalize;
+        font-weight: bold;
+    }
+    .section-2{
+        background-image: url(./);
+    }
+    .nns{
+        display: inline-flex;
+        width: 100%;
+    }
+    .alert1{
+        width: 650px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: teal;
+        border: 2px solid white;
+        box-shadow: 0px 0px 1px 2px cyan;
+    }
+    .news{
+        width: 320px;
+        border: 1px solid grey;
+        margin-right:20px;
+        margin-left: 20px;
+        border: 3px solid teal; 
+    }
+    .noti{
+        width: 320px;
+        border: 1px solid grey;
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 3px solid teal;
+    }
+    .tittle-bar{
+        background-color:rgb(255, 238, 0);
+        text-align: center;
+        padding: 5px;
+        border-bottom: 3px solid teal;
+    }
+    .news-body{
+        padding: 10px;
+        display: inline-flex;
+    }
+    .news-body .icon .fas{
+        color: darkcyan;
+        font-size: 24px;
+        margin-right: 20px;
+    }
+    .field{
+        width: 150px;
+        text-align: center;
+        margin: 5px;
+        font-size: 16px;
+        padding: 10px;
+        background-color: teal;
+        height: 40px;
+        color: lightcyan;
+        border-right:2px solid lightcyan;
+    }
+    .body{
+        margin: 5px;
+        font-size: 18px;
+        padding: 15px;
+        background-color: teal;
+        color: lightcyan;
+    }
+    .control{
+        text-align: center;
+        height: 40px;
+        width: 150px;
+        margin: 5px;
+        font-size: 18px;
+        padding: 10px;
+        background-color: teal;
+        border-left:2px solid lightcyan;
+    }
+    .control a{
+        text-decoration: none;
+        color: lightcyan;
+        text-decoration-line: underline;
+    }
+    .alert1{
+        animation: backwards 5s infinite;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="sectoin-1">
+            <div class="sub-1">
+                <div class="logo-html">
+                    <img src="./html.png" alt="html.png" width="60" height="60">
+                </div>
+                <div class="main-heading">
+                    <h1>Shabir Enterprize ltd Hyderabad</h1>
+                </div>
+                <div class="search-bar">
+                    <input type="search" placeholder="Enter Keyword">
+                    <input type="submit" value="Search">
+                </div>
+            </div>
+            <div class="sub-2">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">service</a></li>
+                    <li><a href="">contact us</a></li>
+                </ul>
+                <div class="sub-3">
+                    <a href="">Sign In</a>
+                    <a href="">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block; max-width:650px;margin:10px auto; max-height: 330px;" >
+                <div class="amazingslider" id="amazingslider-1">
+                  <ul class="amazingslider-slides" style="display:none;">
+                    <li><img src="./image1.png" alt="1"  title="1" /></li>
+                    <li><img src="./image2.png" alt="2021-01-26 11-14-20"  title="2021-01-26 11-14-20" /></li>
+                    <li><img src="./imag3.jpg" alt="2021-01-31 17-29-49"  title="2021-01-31 17-29-49" /></li>
+                    <li><img src="./imag4.png" alt="aaaaaaa"  title="aaaaaaa" /></li>
+                    <li><img src="./IMG_20170615_185240.jpg" alt="blood"  title="blood" /></li>
+                    <li><img src="./IMG20170814115444.jpg" alt="blood"  title="blood" /></li>
+                    <li><img src="./18836045_221246798393554_6670179591059520202_n (2).jpg" alt="blood"  title="blood" /></li>
+                  </ul>
+                </div>
+                <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Slideshow">Responsive jQuery Slideshow</a></div>
+            </div>
+        </div>
+        <div class="nns">
+            <div class="news">
+                <div class="tittle-bar">News</div>
+                <div class="news-body">
+                    <div class="icon"><i class="fas fa-globe"></i></div>
+                    <div class="newstext">hurrah! Ramzan sell has been updated!</div>
+                </div>
+                <div class="news-body">
+                    <div class="icon"><i class="fas fa-globe"></i></div>
+                    <div class="newstext">we are sorry to incosistency in service due to the maintenace we will inform you as soon as possible when the service will be back</div>
+                </div>
+                <div class="news-body">
+                    <div class="icon"><i class="fas fa-globe"></i></div>
+                    <div class="newstext">New terms and conditions</div>
+                </div>
+                <div class="news-body">
+                    <div class="icon"><i class="fas fa-globe"></i></div>
+                    <div class="newstext">shabir enterprized now globlized and got 50th position in the international market</div>
+                </div>
+            </div>
+            <div class="alert1">
+                <div class="field">Notification:</div>
+                <div class="body"> Congratulations! for coming summer season you will  be discounted 50% on every item. </div>
+                <div class="control"> <a href="">view</a></div>
+            </div>
+            <div class="noti"></div>
+        </div>
+    </div>
+</body>
+</html>
